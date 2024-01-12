@@ -49,5 +49,4 @@ func _on_body_entered(body: Node2D):
 func start(pos):
 	position = pos
 	show()
-	$CollisionShape2D.disable = false
-	
+	$CollisionShape2D.disabled = false
